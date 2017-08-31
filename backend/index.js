@@ -4,7 +4,7 @@ const app = express()
 
 const port = process.env.PORT || 3000
 
-app.get('/', function (req, res) {
+app.get('/api', function (req, res) {
   res.json({'message': 'hello world!'})
 })
 
